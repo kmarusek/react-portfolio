@@ -1,0 +1,40 @@
+{
+   "portfolio": [
+      {
+         "cover" : "/portfolio/1/pushardMobile.png",
+         "title" : "Pushard Welding",
+         "description" : "Wordpress, Gulp, SASS",
+         "url" : "https://pushardwelding.com/"
+      },
+      {
+         "cover" : "/portfolio/1/4flutes.png",
+         "title" : "4flutes Machining",
+         "description" : "Wordpress, Gulp, SASS",
+         "url" : "https://4flutesmachining.com/"
+      },
+      {
+         "cover" : "/portfolio/1/ssbags.png",
+         "title" : "Stewart Sutherland",
+         "description" : "Wordpress, Gulp, SASS",
+         "url" : "https://ssbags.com/"
+      },
+      {
+         "cover" : "/portfolio/1/jrd.png",
+         "title" : "JRD Construction",
+         "description" : "Wordpress, Gulp, SASS",
+         "url" : "https://jrdstyle.com/"
+      },
+      {
+         "cover" : "/portfolio/1/1010data.png",
+         "title" : "1010data",
+         "description" : "Wordpress, Gulp, SASS",
+         "url" : "https://www.1010data.com/"
+      },
+      {
+         "cover" : "/portfolio/1/bevi.png",
+         "title" : "Bevi",
+         "description" : "Wordpress, Gulp, SASS",
+         "url" : "https://bevi.co/"
+      }
+   ]
+}

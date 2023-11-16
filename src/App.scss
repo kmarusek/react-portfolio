@@ -1,0 +1,78 @@
+$primary-color: #34E4EA;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/line-scale-pulse-out.scss';
+
+$breakpoints : (
+  "xs" : 0,
+  "sm" : 480px,
+  "md" : 720px,
+  "lg" : 960px,
+  "xl" : 1200px,
+);
+
+@mixin xs {
+  @media (max-width: map-get($breakpoints, "xs")){
+    @content;
+  }
+}
+@mixin sm {
+  @media (max-width: map-get($breakpoints, "sm")){
+    @content;
+  }
+}
+@mixin md {
+  @media (max-width: map-get($breakpoints, "md")){
+    @content;
+  }
+}
+@mixin lg {
+  @media (max-width: map-get($breakpoints, "lg")){
+    @content;
+  }
+}
+@mixin xl {
+  @media (max-width: map-get($breakpoints, "xl")){
+    @content;
+  }
+}
+
+@mixin breakpoint($bp : 0px){
+  @media (min-width: $bp){
+    @content;
+  }
+}
+
+@font-face{
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue'),
+  url('./assets/fonts/helvetica-neu.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input, textarea {
+  font-family: 'Helvetica Neue';
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}

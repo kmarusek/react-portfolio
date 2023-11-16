@@ -1,0 +1,89 @@
+@import "../../App.scss";
+
+.home-page {
+   height: 100%;
+   .home-graphic{
+      width: 100%;
+      position: absolute;
+      bottom: -400px;
+      z-index: -2;
+   }
+   .text-zone {
+      z-index: 1;
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 45%;
+      max-height: 90%;
+      @include lg {
+         width: 80%;
+         bottom: 200px;
+      }
+   }
+   h1 {
+      color: #ffffff;
+      font-size: 53px;
+      margin: 0;
+      font-family: "Coolvetica";
+      font-weight: 400;
+
+
+      .before-text {
+         font-family: 'La Belle Aurore';
+         color: #34E4EA;
+         font-size: 18px;
+         position: absolute;
+         margin-top: -20px;
+      }
+
+      .after-text {
+         font-family: 'La Belle Aurore';
+         color: #34E4EA;
+         font-size: 18px;
+         position: absolute;
+         margin-top: 10px;
+      }
+
+      img {
+         width: 42px;
+         opacity: 0;
+         height: auto;
+         animation: rotateIn 1s linear both;
+         animation-delay:  1.4s;
+      }  
+
+   }
+
+   h2 {
+      color: #ffd700;
+      margin-top: 60px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+   }
+   
+   .flat-button {
+      color: #34E4EA;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 10px 18px;
+      border: 1px solid #34E4EA;
+      margin-top: 25px;
+      float: left;
+      transition: 0.2s;
+      animation: fadIn 1s 1.8s backwards;
+      white-space: nowrap;
+
+      &:hover {
+         background-color: #34E4EA;
+         transition-delay: .2s;
+         color: #115173;
+      }
+   }
+}
