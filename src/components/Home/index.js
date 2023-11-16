@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo-m-blue.png';
 import { Loader } from 'react-loaders';
-import AnimatedLetters from '../AnimatedLetters/animatedLetters';
-import Logo from './Logo/logo';
+import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
 import "./home.scss";
 
 const Home = () => {

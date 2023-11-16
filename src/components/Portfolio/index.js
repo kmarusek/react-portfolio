@@ -1,5 +1,5 @@
 import './portfolio.scss'
-import AnimatedLetters from '../AnimatedLetters/animatedLetters'
+import AnimatedLetters from '../AnimatedLetters'
 import React from 'react'
 import { useEffect, useState } from 'react'
 import portfolioData from '../../data/portfolio.json'
