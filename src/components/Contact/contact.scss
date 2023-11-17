@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .contact-form {
    width: 100%;
    margin-top: 20px;
@@ -138,5 +140,17 @@
 
    .leaflet-popup-content {
       font-size: 17px;
+   }
+}
+
+@include xl {
+   .map-wrap {
+      float : none;
+      width: 100%;
+      height: 400px;
+      margin: 0;
+   }
+   .info-map {
+      display: none;
    }
 }

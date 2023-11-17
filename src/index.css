@@ -12,3 +12,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.dashboard input, textarea {
+  min-height: 30px;
+  min-width: 400px;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}

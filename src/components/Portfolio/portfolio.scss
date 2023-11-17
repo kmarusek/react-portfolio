@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .portfolio-page {
   padding-left: 100px;
   padding-right: 50px;
@@ -124,5 +126,56 @@
         }
       }
     }
+  }
+}
+
+
+@include xl {
+  .container.portfolio-page {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: visible;
+    
+
+    h1.page-title {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .project-wrap {
+      position: initial;
+      .image-container {
+        flex-wrap: wrap;
+        .image-box {
+          height: 200px;
+          max-width: calc(50% - 25px);
+          flex: 1 1 50%; 
+          object-fit: none;
+
+          .content {
+            width: unset;
+            align-items: center;
+            padding: 0 10px;
+            .text-wrap {
+              justify-content: center;
+              .title {
+                font-size: 18px;
+                text-align: center;
+              }
+              .description {
+                display: none;
+              }
+              .btn {
+                height: auto;
+                line-height: unset;
+                margin-bottom: 0;
+                padding: 4px 20px;
+              }
+           }
+          }
+        }
+      }
+    }
+
   }
 }

@@ -75,3 +75,16 @@
       transform: rotateX(90deg);
    }
 }
+
+
+@include xl {
+   .stage-cube-cont {
+      position: initial;
+      width: 100%;
+      height: 0%;
+      overflow: visible;
+   }
+   .cubespinner {
+      height: 350px;
+   }
+}
