@@ -1,5 +1,5 @@
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-import gsap from 'gsap-trial';
+import DrawSVGPlugin from 'gsap/DrawSVGPlugin';
+import gsap from 'gsap';
 import { useEffect, useRef } from 'react';
 import LogoM from '../../../assets/images/logo-m-blue.png';
 import './logo.scss';
