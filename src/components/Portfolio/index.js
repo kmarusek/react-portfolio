@@ -63,6 +63,7 @@ const Portfolio = () => {
             letterClass={letterClass}
             strArray={['M', 'y', ' ', 'W', 'o', 'r', 'k']}
             idx={15}
+            className="page-title"
           />
         </h1>
         <span className="after-text">&lt;/h1&gt;</span>

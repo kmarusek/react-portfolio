@@ -87,3 +87,48 @@
       }
    }
 }
+
+@include xl {
+   .home-page {
+      h1{
+         font-size: 36px;
+         img {
+            width: 29px
+         }
+      }
+
+      .text-zone {
+         position: initial;
+         width: 100%;
+         transform: none;
+         padding: 10px 20px;
+         box-sizing: border-box;
+      }
+      .flat-button {
+         float: none;
+         display: block;
+         margin: 20px auto 0 auto;
+         width: 125px;
+      }
+
+      .logo-container {
+         position: relative;
+         width: 220px;
+         height: auto;
+         top: 50px;
+         right: 0;
+         left: 0;
+         box-sizing: border-box;
+         margin: auto;
+      
+         svg {
+            position: relative;
+            top: auto;
+            right: auto;
+            bottom: auto;
+            left: 0;
+            margin: auto;
+         }
+      }
+   }
+}
