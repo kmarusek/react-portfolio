@@ -42,7 +42,7 @@ const About = () => {
 
           <p>
             If I'm not working on projects or studying you may find me eating popcorn and watching movies with my wife and dog, hiking or cooking delicious food for friends and family.
-            Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/kmarusek/">Linkedin</a> or follow me on <a href="https://github.com/kmarusek">Github</a>. 
+            Feel free to connect, follow me on <a href="https://www.linkedin.com/in/kmarusek/">Linkedin</a> and <a href="https://github.com/kmarusek">Github</a>. 
           </p>
 
           <p>
