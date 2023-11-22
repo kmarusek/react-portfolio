@@ -24,8 +24,13 @@ const Home = () => {
          <div className="text-zone">
             <h1 className='responsive-test'>
                <span className='before-text'>&lt;h1&gt;</span>
-               <span className={letterClass}>H</span>
-               <span className={`${letterClass} _12`}>i,</span>  
+               <span className={letterClass}>W</span>
+               <span className={`${letterClass} _7`}>e</span>
+               <span className={`${letterClass} _8`}>l</span>  
+               <span className={`${letterClass} _9`}>c</span>  
+               <span className={`${letterClass} _10`}>o</span>  
+               <span className={`${letterClass} _11`}>m</span>  
+               <span className={`${letterClass} _12`}>e,</span>     
             <br/> 
                <span className={`${letterClass} _13`}>I</span>
                <span className={`${letterClass} _14`}>'m </span>
@@ -47,7 +52,7 @@ const Home = () => {
             <br />
                <span className='after-text'>&lt;/h1&gt;</span>
             </h1>
-            <h2>JavaScript / HTML / CSS / PHP / UI.UX / WordPress</h2>
+            <h2> Web Developer / Javascript & WordPress Expert</h2>
             <Link to="/contact" className="flat-button">
                CONTACT ME
             </Link>

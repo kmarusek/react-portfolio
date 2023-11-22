@@ -53,13 +53,8 @@ const Contact = () => {
           </h1>
           <span className="after-text">&lt;/h1&gt;</span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi mi,
-            blandit ac pellentesque et, eleifend vel orci. Duis et ante et neque
-            bibendum faucibus. Integer purus elit, rhoncus at congue vel,
-            finibus convallis sem. Aliquam vehicula vitae leo a suscipit.
-            Vestibulum ut pellentesque justo. Curabitur interdum, metus
-            fringilla lobortis dapibus, tellus dui suscipit ipsum, vestibulum
-            vehicula neque libero semper diam.
+            Feel free to Contact me by submitting the form below and I will get
+            back to you as soon as possible
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

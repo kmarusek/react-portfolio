@@ -35,36 +35,20 @@ const About = () => {
           </h1>
           <span className="after-text">&lt;/h1&gt;</span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            hendrerit, velit nec condimentum facilisis, odio mi rutrum purus,
-            sit amet consectetur felis mi non nibh. Curabitur dignissim diam eu
-            ipsum tristique scelerisque. Aliquam elementum felis tortor, quis
-            imperdiet mi porta a. Nulla id lorem orci. Duis non massa sed tellus
-            dignissim convallis nec sed nulla. Suspendisse rutrum mauris arcu,
-            facilisis ornare magna tempor mollis. Aenean ac euismod neque.
-            Integer scelerisque nisi quis purus convallis, at volutpat nibh
-            egestas. Quisque vel bibendum nisi, at sodales nisi. Donec vehicula
-            lobortis luctus. Vestibulum eu ultricies urna, quis auctor nulla.
-            Donec tincidunt tristique diam non convallis. Etiam sit amet aliquam
-            elit. Donec dictum metus tempus cursus suscipit. Sed blandit blandit
-            justo et sagittis. Sed ultrices, felis id gravida gravida, nibh
-            lectus dignissim augue, id vehicula elit nibh sit amet eros.
+            I'm a <strong className='strong'>Frontend Web Developer</strong> building the Front-end of Websites and
+            Web Applications that leads to the success of the overall product.
+            Check out some of my work in the <a href="/portfolio"> Projects section.</a>
           </p>
+
           <p>
-            Phasellus vehicula mi vitae massa placerat ullamcorper. Ut sed quam
-            a ligula cursus elementum. Etiam varius neque nec sapien porttitor,
-            ac pulvinar diam efficitur. Vivamus volutpat orci a erat consequat
-            luctus. Nam vel erat lectus. Nam molestie felis ac quam fringilla,
-            fermentum auctor erat convallis. Aliquam tincidunt, neque a vehicula
-            feugiat, mauris velit tempor massa, ut aliquam felis ipsum eget
-            dolor. Integer auctor nibh a neque rhoncus, eget gravida eros
-            tempor. Vivamus metus tellus, maximus et risus ac, ultricies
-            suscipit mi. Cras eget metus at sapien porta faucibus et sed ipsum.
+            If I'm not working on projects or studying you may find me eating popcorn and watching movies with my wife and dog, hiking or cooking delicious food for friends and family.
+            Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/kmarusek/">Linkedin</a> or follow me on <a href="https://github.com/kmarusek">Github</a>. 
           </p>
+
           <p>
-            In quis ligula luctus augue tempor euismod posuere vel turpis. Donec
-            rutrum ultrices justo quis bibendum. Interdum et malesuada fames ac
-            ante ipsum primis in faucibus.
+            I'm open to Job opportunities where I can contribute, learn and
+            grow. If you have a good opportunity that matches my skills and
+            experience then don't hesitate to <a href="/contact">contact me</a>.
           </p>
         </div>
 

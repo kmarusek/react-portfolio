@@ -7,7 +7,7 @@
 }
 
 .tags {
-   color: #34E4EA;
+   color: #ffd700;
    z-index: 1;
    opacity: .8;
    position: absolute;
@@ -75,7 +75,8 @@
 
       .before-text {
          font-family: 'La Belle Aurore';
-         color: #34E4EA;
+         color : #ffd700;
+         opacity: .8;
          font-size: 18px;
          position: absolute;
          margin-top: -20px;
@@ -83,12 +84,13 @@
 
       .after-text {
          font-family: 'La Belle Aurore';
-         color: #34E4EA;
+         color: #ffd700;
+         opacity: .8;
          font-size: 18px;
       }
 
       p{
-         font-size: 13px;
+         font-size: 16px;
          color: #fff;
          font-family: sans-serif;
          font-weight: 300;
@@ -103,6 +105,15 @@
          }
          &:nth-of-type(3){
             animation-delay: 1.3s;
+         }
+
+         a {
+            text-decoration: none;
+            color: #34E4EA;
+
+            &:hover {
+               color: #ffd700;
+            }
          }
       }
 
